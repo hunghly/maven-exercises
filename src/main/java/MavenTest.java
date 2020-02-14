@@ -1,8 +1,5 @@
-
 import org.apache.commons.lang3.*;
-
 import java.util.Scanner;
-
 
 public class MavenTest {
     public static void main(String[] args) {
@@ -16,5 +13,9 @@ public class MavenTest {
         }
         System.out.printf("Your string with flipped case is: %s.\n", StringUtils.swapCase(str));
         System.out.printf("Your string reversed is: %s.\n", StringUtils.reverse(str));
+
+    }
+    public static int add (int n1, int n2) {
+        return n1 + n2;
     }
 }
